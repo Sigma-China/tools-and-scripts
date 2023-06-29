@@ -84,7 +84,7 @@
 
 ## 贡献
 
-非常欢迎你的加入！你可以通过提issue 或 pull request的方式来共同开发。
+非常欢迎你的加入！你可以通过[Open Issue](https://github.com/Sigma-China/tools-and-scripts/issues/new "Open Isuuse") 或 pull request的方式来共同开发。
 
 ## 开源协议
 
