@@ -9,7 +9,7 @@
 ```
    long-sentence.py
    example-image
-        open.png
+        open-doc.png
         result.png
    README.md
    requirements.txt
