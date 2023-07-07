@@ -67,7 +67,7 @@ https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08
 
 2. 在`Options>OpenOffice` 界面中，点击 `Java>Java options`，勾选 `Use a Java runtime environment`, 确认已安装Java运行时的环境。如下图：  
 
-![open-office](/example-image/openoffice.png)
+![open-office](example-image/openoffice.png)
 
 3. 点击 `OK`， 确认退出。  
 
@@ -100,7 +100,7 @@ https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08
     > python word2dita.py 
 
     示例如下：  
-    ![运行脚本](/example-image/run.jpg)
+    ![运行脚本](example-image/run.jpg)
     
 
     生成的 `output.dita`文件可在DITA编辑器（如Oxygen XML Editor）中打开和编辑。  
