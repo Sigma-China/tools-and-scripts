@@ -1,2 +1,22 @@
-# tools-and-scripts
-This repo contains open-source tools and scripts related to technical writing.
+# 科多思技术文档工具社区
+欢迎访问科多思技术文档工具社区！我们致力于分享与技术文档密切相关的工具和解决方案，助力文档工程师快速处理文档或进行特定方面的质量检测。  
+
+## 资源目录
+- [英文文档长句检测](./long-sentence)
+- [Word文档转DITA格式](./word2dita)
+
+更多资源即将上线，敬请关注！
+
+## 英文文档长句检测
+我们提供了一个自动统计英文文档中长句的脚本，帮助文档工程师快速检测所写的文档是否存在长句过多的问题，从而更有针对性地改善文档质量。  
+
+请参阅 [long-sentence仓库](./long-sentence/long-sentence.py) 获取更多详细信息和使用指南。  
+
+## Word文档转DITA格式  
+我们提供了一个免费将word文档转换为DITA格式的方案，帮助文档工程师提高文档结构化转换效率。  
+
+请参阅[word2dita仓库](./word2dita/word2dita.py)  获取更多详细信息和使用指南。  
+
+## 社区支持
+如果您需要帮助、有疑问或想与社区成员交流，请发送电子邮件至 hui.wang@sigmatechnology.com
+
