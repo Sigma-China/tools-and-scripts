@@ -23,7 +23,6 @@
 - [环境要求](#环境要求)
 - [准备条件](#准备条件)
 - [操作步骤](#操作步骤)
-- [贡献方式](#贡献方式)
 - [开源协议](#开源协议)  
 
 # 背景说明
@@ -34,12 +33,11 @@ Word文档是常见的技术文档格式之一，但Word文档通常是非结构
 DITA 是基于 XML 的一种特定领域标准，用于创建和管理结构化文档。将文档转换为DITA格式有如下优势：  
 - 内容组织与管理更规范
 - 内容重用和共享更便捷
-- 自动化处理成为可能
-- 多平台访问不再受限
+- 自动化处理更高效
 
 # 转换流程
 
->Word(.docx) —— Docbook(.odt) —— XML(.xml) —— DITA(.dita)
+>Word(.docx) —— XML(.xml) —— DITA(.dita)
 
 # 环境要求    
 
@@ -82,6 +80,9 @@ https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08
 
     - Python脚本 `word2dita.py`
     - 文件夹 `XSLs`
+      >提示：`XSLs`文件夹中含有`db2dita`和`ditaWriter`两个子文件夹，其中含有转换格式所需的库。 也可通过[下载链接](https://github.com/jmourelos/doconv/archive/refs/tags/0.1.7.tar.gz)下载，解压后在 `/doconv-0.1.7/doconv-0.1.7/docconv/plugin/docbooktodita`路径下可获取。
+
+
 
 2. 将Word文档转换为Docbook格式。  
 
@@ -105,10 +106,6 @@ https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u282-b08
 
     生成的 `output.dita`文件可在DITA编辑器（如Oxygen XML Editor）中打开和编辑。  
 
-
-## 贡献方式
-
-非常欢迎你的加入！你可以通过提一个issue 或 pull request的方式来共同开发。
 
 ## 开源协议
 遵循MIT协议。
