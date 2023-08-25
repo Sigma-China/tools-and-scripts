@@ -80,7 +80,7 @@
 
 ## 支持
 
--   邮箱：hui.wang@sigmatechnology.com
+-   邮箱：he.guangxin@sigmatechnology.com
 
 ## 贡献
 
